@@ -5,15 +5,15 @@ import java.util.Scanner;
 
 public class Array<isSorted> {
     public static void main(String[] args) {
-        System.out.println("Введите масив");
+        System.out.println("Введите массив");
         int[] array = new int[10];
         Scanner scanner = new Scanner(System.in);
         for (int i = 0; i < array.length; i++) {
             array[i] = scanner.nextInt();
         }
         int sum = 0;
-        for (int j : array) {
-            sum = sum + j;
+        for (int q : array) {
+            sum = sum + q;
         }
         System.out.println("Сума массива:" + (sum));
 
